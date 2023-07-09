@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+    margin: 0px;
+    text-decoration: none;
+}
+body {
+    font-family: Montserrat;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+}
+mark{
+    background-color: rgb(148, 52, 52);
+    color: white;
+}
+.cabeçalho{
+    background-color: rgb(70, 70, 70);
+    height: 5vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.cabeçalho div {
+    margin-right: 15vw;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+#fontLogo {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: 0.5vh;
+}
+.indices{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8vh;
+    font-weight: bold;
+}
+#ind1{
+    color: white;
+    margin-right: 2vw;
+}
+#ind2{
+    color: white;
+}
+.imgFundo{
+    position: absolute;
+    background-image: url(../img/imgGitInicio.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.05;
+}
+
+.cont1 {
+    width: 60vw;
+    text-align: start;
+    margin-top: 4vh;
+}
+.cont1 p {
+    margin-bottom: 2vh;
+}
+.cont1 h1 {
+    margin-bottom: 4vh;
+    font-size: 40px;
+}
+.secao {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4vh;
+}
+.secao p {
+    font-size: 16px;
+}
+.secao img {
+    margin-right: 4vw;
+}
+
+.secao1 {
+    display: block;
+    justify-content: space-evenly;
+    margin-bottom: 4vh;
+}
+h6{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 6vh 0 2vh 0;
+}
+
+
