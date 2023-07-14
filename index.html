@@ -10,10 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/index.css">
-    <title>Document</title>
+    <title>Trabalho Git</title>
 </head>
 
 <body>
+    <div class="imgFundo"></div>
+
     <header class="cabeçalho">
         <div>
             <a href="index.html" class="logo">
@@ -32,22 +34,25 @@
     </header>
     <section>
         <center>
-            <div class="imgFundo"></div>
             <div class="cont1">
                 <center>
-                    <h1><q>O que é Git e qual é a sua relação<br> com GitHub?</q></h1>
+                    <h1><q>O que é <i>Git</i> e qual é a sua relação<br> com <i>GitHub</i>?</q></h1>
                 </center>
                 <div class="secao">
                     <div>
                         <img src="img/gitIcon.svg" alt="Git Icone" width="150" height="150">
                     </div>
-                    <p> <abbr title="Sistema de controle de versão distribuído">Git</abbr> é um sistema de controle de
+                    <p> <abbr title="Sistema de controle de versão distribuído"><i><b>Git</b></i></abbr> é um sistema de
+                        controle de
                         versão distribuído e amplamente adotado, criado em 2005 por Linus
                         Torvalds, o famoso criador do kernel do sistema operacional Linux. É um projeto de código aberto
-                        maduro e com manutenção ativa, e muitos projetos de software dependem do Git para controle de
-                        versão, incluindo projetos comerciais e de código-fonte aberto. Com o Git, a cópia de trabalho
+                        maduro e com manutenção ativa, e muitos projetos de software dependem do <i>Git</i> para
+                        controle de
+                        versão, incluindo projetos comerciais e de código-fonte aberto. Com o <i>Git</i>, a cópia de
+                        trabalho
                         de todo desenvolvedor do código também é um repositório que pode conter o histórico completo de
-                        todas as alterações. Além de ser distribuído, o Git foi projetado com desempenho, segurança e
+                        todas as alterações. Além de ser distribuído, o <i>Git</i> foi projetado com desempenho,
+                        segurança e
                         flexibilidade em mente.
                     </p>
                 </div>
@@ -56,107 +61,201 @@
                         <img src="img/githubIcon.svg" alt="Git Icone" width="150" height="150">
                     </div>
                     <p>
-                        <abbr title="Plataforma de hospedagem de código-fonte">GitHub</abbr> é uma plataforma baseada em
-                        nuvem que hospeda repositórios Git e facilita a colaboração e
+                        <abbr title="Plataforma de hospedagem de código-fonte"><i><b>GitHub</b></i></abbr> é uma
+                        plataforma baseada em
+                        nuvem que hospeda repositórios <i>Git</i> e facilita a colaboração e
                         o gerenciamento de projetos compartilhados. É uma empresa com fins lucrativos que disponibiliza
                         um serviço baseado em nuvem.
-                        Em resumo, enquanto o Git é um sistema de controle de versão
-                        distribuído, o GitHub é uma plataforma que hospeda repositórios Git e permite que programadores
+                        Em resumo, enquanto o <i>Git</i> é um sistema de controle de versão
+                        distribuído, o <i>GitHub</i> é uma plataforma que hospeda repositórios <i>Git</i> e permite que
+                        programadores
                         e outros usuários colaborem e façam mudanças em projetos compartilhados.
                     </p>
                 </div>
             </div>
-            <div class="cont1">
+            <div class="tutorial">
+                <h4>Como configurar seu repositório no <i>GitHub</i></h4>
+                <ol>
+                    <li>
+                        <p>Crie uma conta no GitHub: Para começar, você precisará criar uma conta no GitHub. Acesse
+                            <a id="linkGitHub" target="_blank" href="https://github.com"><b>GitHub.com</b></a> e clique
+                            em “Sign up” (Inscreva-se) para criar uma conta. Siga as instruções na tela
+                            para concluir o processo de inscrição.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Crie um novo repositório: Depois de fazer login em sua conta do GitHub, você pode criar um
+                            novo repositório clicando no botão “New repository” (Novo repositório) na página inicial. Dê
+                            um nome ao seu repositório e adicione uma descrição (opcional). Você também pode escolher se
+                            deseja tornar o repositório público (acessível a todos) ou privado (acessível apenas a você
+                            e a pessoas que você convidar). Quando terminar, clique em “Create repository” (Criar
+                            repositório).</p>
+                    </li>
+                    <li>
+                        <p>Clone o repositório: Para fazer alterações no código do seu repositório, você precisará
+                            cloná-lo para o seu computador local. Isso criará uma cópia do repositório em seu
+                            computador, permitindo que você faça alterações no código. Para clonar o repositório, abra
+                            um terminal ou prompt de comando e navegue até o diretório onde deseja armazenar o
+                            repositório. Em seguida, execute o comando <code>git clone</code> seguido do URL do
+                            repositório. Por exemplo:</p>
+                        <p><code>git clone https://github.com/seu-usuario/seu-repositorio.git
+                        </code></p>
+                    </li>
+                    <li>
+                        <p>Faça alterações no código: Depois de clonar o repositório, você pode fazer alterações no
+                            código usando o editor de código de sua escolha. Quando terminar de fazer as alterações,
+                            salve os arquivos.</p>
+                    </li>
+                    <li>
+                        <p>Envie as alterações para o GitHub: Depois de fazer as alterações no código, você precisará
+                            enviá-las de volta para o GitHub para que elas sejam salvas no repositório remoto. Para
+                            fazer isso, abra um terminal ou prompt de comando e navegue até o diretório do repositório
+                            clonado. Em seguida, execute os seguintes comandos:</p>
+                        <p><code>git add .</code></p>
+                        <p><code>git commit -m "Sua mensagem de commit aqui"</code></p>
+                        <p><code> git push</code></p>
+                        <p>Isso adicionará todas as alterações feitas aos arquivos (<code>git add .</code>), criará um novo commit
+                            com uma mensagem descritiva (<code>git commit -m "Sua mensagem de commit aqui</code>") e enviará as
+                            alterações para o GitHub (<code>git push</code>).</p>
+                    </li>
+                </ol>
+                <br>
+                <p id="conclusao">Agora você pode acessar o seu repositório no GitHub. Para fazer alterações no código, você pode
+                    clonar o repositório para o seu computador local usando o comando git clone seguido do URL do
+                    repositório. Depois de fazer as alterações, você pode enviar as alterações de volta para o GitHub
+                    usando os comandos git add, git commit e git push. E poderá fazer muito mais utilizando os comandos
+                    abaixo.</p>
+            </div>
+            <div class="cont1 comandos">
                 <center>
-                    <h1>Principais comandos do Git</h1>
+                    <h1>Principais comandos do <i>Git</i></h1>
                 </center>
-                <div class="secao1">
-                    <h6>
-                        <pre><mark> Init: &nbsp</mark></pre>
-                    </h6>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="secao1">
+                                <details open>
+                                    <summary>
+                                        <h6>
+                                            <pre><mark>Init: &nbsp</mark></pre>
+                                        </h6>
+                                        <p id="details"><small>Clique para ocultar...</small></p>
+                                    </summary>
+                                    <div>
+                                        <img src="img/imgExemplo2.png" alt="Git Icone" height="85%" width="85%">
 
-                    <div>
-                        <center><img src="img/imgExemplo2.png" alt="Git Icone" height="85%" width="85%"></center>
-                    </div>
-                    <p>Cria um novo repositório Git em um diretório vazio ou existente.
-                    </p>
-                </div>
-                <div class="secao1">
-                    <h6>
-                        <pre><mark> Clone: &nbsp</mark></pre>
-                    </h6>
+                                    </div>
+                                    <code><p id="descri">Cria um novo repositório Git em um diretório vazio ou existente.
+                                    </p>
+                                    </code>
+                                </details>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="secao1">
+                                <details open>
+                                    <summary>
+                                        <h6>
+                                            <pre><mark> Clone: &nbsp</mark></pre>
+                                        </h6>
+                                        <p id="details"><small>Clique para ocultar...</small></p>
+                                    </summary>
+                                    <div>
+                                        <img src="img/imgExemplo2.png" alt="Git Icone" height="85%" width="85%">
 
-                    <div>
-                        <center><img src="img/imgExemplo2.png" alt="Git Icone" height="85%" width="85%"></center>
-                    </div>
-                    <p>
-                        Cria um clone local de um repositório remoto. É possível copiar de repositórios remotos através
-                        do GitHub e também de diretórios locais.</p>
-                </div>
-                <div class="secao1">
-                    <h6>
-                        <pre><mark> Branch: &nbsp</mark></pre>
-                    </h6>
+                                    </div>
+                                    <code><p id="descri">Cria um clone local de um repositório remoto. É possível copiar de
+                                        repositórios remotos através do GitHub e também de diretórios locais.
+                                    </p></code>
+                                </details>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="secao1">
+                                <details open>
+                                    <summary>
+                                        <h6>
+                                            <pre><mark> Branch: &nbsp</mark></pre>
+                                        </h6>
+                                        <p id="details"><small>Clique para ocultar...</small></p>
+                                    </summary>
+                                    <div>
+                                        <img src="img/imgExemplo2.png" alt="Git Icone" height="85%" width="85%">
 
-                    <div>
-                        <center><img src="img/imgExemplo2.png" alt="Git Icone" height="85%" width="85%"></center>
-                    </div>
-                    <p>
-                        Cria, exclui ou lista ramificações independentes (branches).
-                        Checkout: Altera um branch atual ou restaura arquivos de repositórios para um estado anterior.
-                    </p>
-                </div>
-                <div class="secao1">
-                    <h6>
-                        <pre><mark> Status: &nbsp</mark></pre>
-                    </h6>
+                                    </div>
+                                    <code>
+                                    <p id="descri">Cria, exclui ou lista ramificações independentes (branches).
+                                    </p></code>
+                                </details>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="secao1">
+                                <details open>
+                                    <summary>
+                                        <h6>
+                                            <pre><mark> Checkout: &nbsp</mark></pre>
+                                        </h6>
+                                        <p id="details"><small>Clique para ocultar...</small></p>
+                                    </summary>
+                                    <div>
+                                        <img src="img/imgExemplo2.png" alt="Git Icone" height="85%" width="85%">
 
-                    <div>
-                        <center><img src="img/imgExemplo2.png" alt="Git Icone" height="85%" width="85%"></center>
-                    </div>
-                    <p>
-                        Exibe o status do repositório, como os arquivos modificados, adicionados e excluídos.</p>
-                </div>
-                <div class="secao1">
-                    <h6>
-                        <pre><mark> Diff: &nbsp</mark></pre>
-                    </h6>
-
-                    <div>
-                        <center><img src="img/imgExemplo2.png" alt="Git Icone" height="85%" width="85%"></center>
-                    </div>
-                    <p>
-                        Mostra as diferenças entre o estado atual e o último commit, permitindo ver as modificações
-                        linha por linha.</p>
-                </div>
-                <div class="secao1">
-                    <h6>
-                        <pre><mark> Add: &nbsp</mark></pre>
-                    </h6>
-
-                    <div>
-                        <center><img src="img/imgExemplo2.png" alt="Git Icone" height="85%" width="85%"></center>
-                    </div>
-                    <p>
-                        Adiciona arquivos modificados ao próximo commit. É usado para adicionar arquivos novos e modificados.</p>
-                </div>
-                <div class="secao1">
-                    <h6>
-                        <pre><mark> Commit: &nbsp</mark></pre>
-                    </h6>
-
-                    <div>
-                        <center><img src="img/imgExemplo2.png" alt="Git Icone" height="85%" width="85%"></center>
-                    </div>
-                    <p>
-                        Cria uma nova unidade lógica de trabalho no Git, chamado de commit.</p>
-                </div>
+                                    </div>
+                                    <code><p id="descri">Altera um branch atual ou restaura arquivos de repositórios para um
+                                        estado anterior.
+                                    </p>
+                                </code>
+                                </details>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </center>
 
     </section>
     <footer>
+        <div class="footerCont1">
+            <img src="img/logoBugs.png" alt="logo BCC Unifal">
 
+            <div id="div1">
+                <h3>Ciência da Computação - UNIFAL-MG</h3>
+                <br>
+                <p>Website criado pelos alunos:</p>
+                <ul>
+                    <li>Gustavo Borin Nascimento 2023.1.08.006</li>
+                    <li>José junin da cunha sauro 2023.1.08.006</li>
+                </ul>
+            </div>
+        </div>
+        <div id="line"></div>
+        <div class="footerCont2">
+            <img src="img/logo1_unifal_mg.png" alt="logo da Unifal">
+            <div id="div2">
+                <dl>
+                    <dt><b>UNIFAL</b></dt>
+                    <br>
+                    <dd><i>A Universidade Federal de Alfenas (UNIFAL-MG) é uma instituição pública de ensino superior
+                            localizada em Alfenas, Minas Gerais, com campi adicionais em
+                            <ol>
+                                <li>Poços de Caldas</li>
+                                <li>Varginha</li>
+                            </ol>
+                            A
+                            UNIFAL-MG
+                            é reconhecida por seus projetos de pesquisa, desenvolvimento e extensão, que buscam soluções
+                            sustentáveis para promover a inclusão social e reduzir a desigualdade.
+                        </i></dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="footerCont3">
+
+        </div>
     </footer>
 
 </body>

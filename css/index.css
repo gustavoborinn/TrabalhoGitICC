@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 * {
     margin: 0px;
     text-decoration: none;
 }
+
 body {
     font-family: Montserrat;
     background-color: rgba(0, 0, 0, 0.87);
     color: white;
 }
-mark{
+
+mark {
     background-color: rgb(148, 52, 52);
     color: white;
 }
-.cabeçalho{
+
+.cabeçalho {
     background-color: rgb(70, 70, 70);
     height: 5vh;
     width: 100%;
@@ -20,6 +24,7 @@ mark{
     display: flex;
     justify-content: space-between;
 }
+
 .cabeçalho div {
     margin-right: 15vw;
 }
@@ -28,27 +33,32 @@ mark{
     display: flex;
     justify-content: space-between;
 }
+
 #fontLogo {
     font-size: 20px;
     font-weight: bold;
     color: rgb(255, 255, 255);
     margin-top: 0.5vh;
 }
-.indices{
+
+.indices {
     display: flex;
     justify-content: space-between;
     margin-top: 0.8vh;
     font-weight: bold;
 }
-#ind1{
+
+#ind1 {
     color: white;
     margin-right: 2vw;
 }
-#ind2{
+
+#ind2 {
     color: white;
 }
-.imgFundo{
-    position: absolute;
+
+.imgFundo {
+    position: fixed;
     background-image: url(../img/imgGitInicio.jpg);
     height: 100%;
     width: 100%;
@@ -57,41 +67,150 @@ mark{
     background-position: center;
     background-attachment: fixed;
     opacity: 0.05;
+    z-index: -1;
 }
-
+h4 {
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+    font-size: 40px;
+    margin-bottom: 6vh;
+}
+#linkGitHub {
+    color: rgb(173, 60, 60);
+}
+.tutorial p{
+    width: 56vw;
+    text-align: justify;
+    margin-bottom: 3vh;
+}
+#conclusao {
+    width: 57vw;
+    margin-left: 2vw;
+}
+.tutorial ol{
+    text-align: justify;
+    margin-left: 20vw;
+}
 .cont1 {
     width: 60vw;
     text-align: start;
     margin-top: 4vh;
 }
+
+#descri {
+    width: 38vw;
+}
+
 .cont1 p {
     margin-bottom: 2vh;
 }
+
 .cont1 h1 {
+    margin-top: 10vh;
     margin-bottom: 4vh;
     font-size: 40px;
 }
+
+.comandos {
+    width: 100%;
+    display: block;
+}
+
 .secao {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 4vh;
 }
+
 .secao p {
     font-size: 16px;
 }
+
 .secao img {
     margin-right: 4vw;
 }
 
 .secao1 {
-    display: block;
-    justify-content: space-evenly;
     margin-bottom: 4vh;
 }
-h6{
+
+tr {
+    display: flex;
+    margin-left: 6vw;
+}
+
+h6 {
     font-size: 30px;
     font-weight: bold;
     margin: 6vh 0 2vh 0;
 }
 
+summary {
+    display: flex;
+    align-items: center;
+    width: 46vw;
+}
 
+#details {
+    margin: 6vh 0 0 2vw;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.685);
+    padding: 30px;
+
+}
+
+footer li {
+    width: max-content;
+}
+
+.footerCont1 {
+    display: flex;
+}
+
+.footerCont1 img {
+    height: 30vh;
+    width: 15vw;
+}
+
+#div1 {
+    margin-top: 8vh;
+}
+
+.footerCont2 {
+    display: flex;
+}
+
+.footerCont2 img {
+    margin-top: 4vh;
+    width: 12vw;
+    height: 22vh;
+}
+
+.footerCont2 dl {
+    margin-left: 2vw;
+}
+
+.footerCont2 dt {
+    font-size: 22px;
+}
+
+.footerCont2 dd {
+    font-size: 14px;
+}
+
+#div2 {
+    width: 35vw;
+}
+
+#line {
+    background-color: white;
+    border: 1px solid white;
+    margin: 0 1vw 0 1vw;
+}
+code {
+    font-size: 16px;
+}
