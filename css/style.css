@@ -215,3 +215,11 @@ footer li {
 code {
     font-size: 16px;
 }
+.audio {
+    margin-top: 15vh;
+}
+.audio h2 {
+    margin-bottom: 5vh;
+    font-size: 30px;
+    color: rgb(214, 76, 76);
+}
