@@ -223,3 +223,8 @@ code {
     font-size: 30px;
     color: rgb(214, 76, 76);
 }
+.video h2 {
+    margin: 2vh 0 3vh 0;
+    color: rgb(214, 76, 76);
+    font-size: 30px;
+}
